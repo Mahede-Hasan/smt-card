@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <!-- External style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="card-container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+            <!-- First Card -->
+            <div class="col container-fluid my-3 mx-">
+                <div class="card single-card-container">
+
+                    <!-- card image -->
+                    <img src="images/card-img (1).jpg" class="card-img-top single-card-img" alt="...">
+
+                    <!-- image over content -->
+                    <div class="img-over-content">
+                        <div class="img-content d-flex flex-column">
+                            <a class="card-featured" href="">Featured</a>
+                            <a class="card-popular" href="">Popular</a>
+                        </div>
+                    </div>
+                    <!-- image over heart icon -->
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-heart img-heart-icon" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body">
+
+                        <!-- card body title -->
+                        <h5 class="card-title py-2">Fountain Dubai Walk Nami</h5>
+
+                        <!-- card button group -->
+                        <div class="card-btn-group">
+                            <a class="card-btn rating-btn" href=""><span class="rating-count">4.5</span> <span><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor"
+                                        class="bi bi-star-fill ms-1 card-star" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></span></a>
+                            <a class="card-btn price-btn" href="">$12.00</a>
+                            <a class="card-btn open-close-btn" href="">Close Now</a>
+                        </div>
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-geo-alt info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg>
+                                </span>
+                                <a href="">Houstone,</a>
+                                <a href="">Las Vegas,</a>
+                                <a href="">Tampa </a>
+                            </div>
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-telephone info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                    </svg>
+                                </span>
+                                <a href="">98645726</a>
+                            </div>
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-geo-alt info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg>
+                                </span>
+                                <a href="">January 10, 2024</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card footer -->
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <a class=" d-flex align-items-center" href="">
+                            <div class="footer-icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                    height="14" fill="currentColor" class="bi bi-exclamation-circle footer-icon"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                                </svg></div> <span class="footer-content">Outdoor Activities</span>
+                        </a>
+
+                        <span class="footer-right-content">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
+                                </svg>
+                            </span>
+                            <span>12645</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col container-fluid my-3 mx-">
+                <div class="card single-card-container">
+
+                    <!-- card image -->
+                    <img src="images/card-img (2).jpg" class="card-img-top single-card-img" alt="...">
+
+                    <!-- image over content -->
+                    <div class="img-over-content">
+                        <div class="img-content d-flex flex-column">
+                            <a class="card-featured" href="">Featured</a>
+                            <a class="card-popular" href="">Popular</a>
+                        </div>
+                    </div>
+                    <!-- image over heart icon -->
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-heart img-heart-icon" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body">
+
+                        <!-- card body title -->
+                        <h5 class="card-title py-2">Shopping City of Los Angeles</h5>
+
+                        <!-- card button group -->
+                        <div class="card-btn-group">
+                            <a class="card-btn rating-btn" href=""><span class="rating-count">0.0</span> <span><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor"
+                                        class="bi bi-star-fill ms-1 card-star" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></span></a>
+                            <a class="card-btn open-close-btn open-now-btn" href="">Open Now</a>
+                        </div>
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-geo-alt info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg>
+                                </span>
+                                <a href="">Houstone,</a>
+                                <a href="">London</a>
+                            </div>
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-telephone info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                    </svg>
+                                </span>
+                                <a href="">48645726</a>
+                            </div>
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-geo-alt info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg>
+                                </span>
+                                <a href="">January 10, 2024</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card footer -->
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <a class=" d-flex align-items-center" href="">
+                            <div class="footer-icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                    height="14" fill="currentColor" class="bi bi-exclamation-circle footer-icon"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                                </svg></div> <span class="footer-content">Restaurants</span>
+                        </a>
+
+                        <span class="footer-right-content">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
+                                </svg>
+                            </span>
+                            <span>17645</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Card -->
+            <div class="col container-fluid my-3 mx-">
+                <div class="card single-card-container">
+
+                    <!-- card image -->
+                    <img src="images/card-img (3).jpg" class="card-img-top single-card-img" alt="...">
+
+                    <!-- image over content -->
+                    <div class="img-over-content">
+                        <div class="img-content d-flex flex-column">
+                            <a class="card-featured" href="">Featured</a>
+                            <a class="card-popular" href="">Popular</a>
+                        </div>
+                    </div>
+                    <!-- image over heart icon -->
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-heart img-heart-icon" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body">
+
+                        <!-- card body title -->
+                        <h5 class="card-title py-2">Nami Teppanyki Steakhouse</h5>
+
+                        <!-- card button group -->
+                        <div class="card-btn-group">
+                            <a class="card-btn rating-btn" href=""><span class="rating-count">0.0</span> <span><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor"
+                                        class="bi bi-star-fill ms-1 card-star" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></span></a>
+                            <a class="card-btn open-close-btn" href="">Close Now</a>
+                        </div>
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-geo-alt info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg>
+                                </span>
+                                <a href="">Houstone</a>
+                            </div>
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-telephone info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                    </svg>
+                                </span>
+                                <a href="">68645726</a>
+                            </div>
+                            <div class="card-info-inner-container">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" fill="currentColor"
+                                        class="bi bi-geo-alt info-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg>
+                                </span>
+                                <a href="">January 10, 2024</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card footer -->
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <a class=" d-flex align-items-center" href="">
+                            <div class="footer-icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                                    height="14" fill="currentColor" class="bi bi-exclamation-circle footer-icon"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                                </svg></div> <span class="footer-content">Shopping</span>
+                        </a>
+
+                        <span class="footer-right-content">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
+                                </svg>
+                            </span>
+                            <span>2645</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
